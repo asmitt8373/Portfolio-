@@ -12,7 +12,7 @@ export function About() {
               className="h-[200px] w-[200px] md:h-[400px] md:w-[400px] md:m-[40px] object-cover rounded-[10px]"
             />
           </div>
-          <p className="md:w-100 md:text-2xl md:m-[40px]">
+          <p className="md:w-100 text-m md:text-2xl md:m-[40px]">
             I’m a full stack developer with a deep passion for JavaScript,
             React, Sql and all things web development.The unique combination of
             creativity, logic, technology and never running out of new things to
@@ -27,11 +27,11 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/html.png"
-                  className="md:h-[100px] md:w-[100px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center grow md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center grow md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                   HTML
                 </h1>
               </div>
@@ -40,11 +40,11 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/css1.png"
-                  className="md:h-[100px] md:w-[100px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center grow md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center grow md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                   CSS
                 </h1>
               </div>
@@ -53,11 +53,11 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/tailwind.png"
-                  className="md:h-[100px] md:w-[100px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                   Tailwind
                 </h1>
               </div>
@@ -68,10 +68,10 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/react.png"
-                  className="md:h-[100px] md:w-[100px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                 React
               </h1>
             </div>
@@ -79,18 +79,21 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/javascript.png"
-                  className="md:h-[100px] md:w-[100px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                 JavaScript
               </h1>
             </div>
             <div className="md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
-                <img src="/img/git.png" className="md:h-[100px] md:w-[100px]" />
+                <img
+                  src="/img/git.png"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                 Git
               </h1>
             </div>
@@ -98,10 +101,10 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/mongo.png"
-                  className="md:h-[100px] md:w-[100px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                 MongoDB
               </h1>
             </div>
@@ -111,18 +114,21 @@ export function About() {
               <div className="flex flex-col md:m-[10px]">
                 <img
                   src="/img/python.png"
-                  className="md:h-[100px] md:w-[100px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                 Python
               </h1>
             </div>
             <div className="md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
-                <img src="/img/sql.png" className="md:h-[100px] md:w-[100px]" />
+                <img
+                  src="/img/sql.png"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
                 Sql
               </h1>
             </div>
@@ -130,7 +136,7 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/node.png"
-                  className="md:h-[100px] md:w-[100px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
               <div>
