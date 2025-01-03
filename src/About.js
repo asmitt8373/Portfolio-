@@ -21,99 +21,120 @@ export function About() {
             skateboarding and of course traveling to new places.
           </p>
         </div>
-        <div className="flex w-[50%]">
+        <div className="flex md:w-[50%]">
           <div className="flex flex-col justify-center items-center grow">
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
-                <img src="/img/html.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
+                <img
+                  src="/img/html.png"
+                  className="md:h-[100px] md:w-[100px]"
+                />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center grow text-l font-bold mb-[5px] mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center grow md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                   HTML
                 </h1>
               </div>
             </div>
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
-                <img src="/img/css1.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
+                <img
+                  src="/img/css1.png"
+                  className="md:h-[100px] md:w-[100px]"
+                />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center grow text-l font-bold mb-[5px] mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center grow md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                   CSS
                 </h1>
               </div>
             </div>
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
-                <img src="/img/tailwind.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
+                <img
+                  src="/img/tailwind.png"
+                  className="md:h-[100px] md:w-[100px]"
+                />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center text-l font-bold mb-[5px] mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                   Tailwind
                 </h1>
               </div>
             </div>
           </div>
           <div className="flex flex-col justify-center items-center grow">
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
-                <img src="/img/react.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
+                <img
+                  src="/img/react.png"
+                  className="md:h-[100px] md:w-[100px]"
+                />
               </div>
-              <h1 className="flex flex-col justify-center items-center text-l font-bold mb-[5px] mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                 React
               </h1>
             </div>
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/javascript.png"
-                  className="h-[100px] w-[100px]"
+                  className="md:h-[100px] md:w-[100px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center text-l font-bold mb-[5px] mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                 JavaScript
               </h1>
             </div>
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
-                <img src="/img/git.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
+                <img src="/img/git.png" className="md:h-[100px] md:w-[100px]" />
               </div>
-              <h1 className="flex flex-col justify-center items-center text-l font-bold mb-[5px] mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                 Git
               </h1>
             </div>
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
-                <img src="/img/mongo.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
+                <img
+                  src="/img/mongo.png"
+                  className="md:h-[100px] md:w-[100px]"
+                />
               </div>
-              <h1 className="flex flex-col justify-center items-center text-l font-bold mb-[5px] mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                 MongoDB
               </h1>
             </div>
           </div>
           <div className="flex flex-col justify-center items-center grow">
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex flex-col m-[10px]">
-                <img src="/img/python.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex flex-col md:m-[10px]">
+                <img
+                  src="/img/python.png"
+                  className="md:h-[100px] md:w-[100px]"
+                />
               </div>
-              <h1 className="flex flex-col justify-center items-center text-l font-bold mb-[5px] mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                 Python
               </h1>
             </div>
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
-                <img src="/img/sql.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
+                <img src="/img/sql.png" className="md:h-[100px] md:w-[100px]" />
               </div>
-              <h1 className="flex flex-col justify-center items-center text-l font-bold mb-[5px] mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l font-bold md:mb-[5px] md:mx-[20px]">
                 Sql
               </h1>
             </div>
-            <div className="m-[20px] fancy-border rounded-[10px]">
-              <div className="flex justify-center m-[10px]">
-                <img src="/img/node.png" className="h-[100px] w-[100px]" />
+            <div className="md:m-[20px] fancy-border rounded-[10px]">
+              <div className="flex justify-center md:m-[10px]">
+                <img
+                  src="/img/node.png"
+                  className="md:h-[100px] md:w-[100px]"
+                />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center text-l font-bold mb-[5px] mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center text-l font-bold md:mb-[5px] md:mx-[20px]">
                   NodeJs
                 </h1>
               </div>
