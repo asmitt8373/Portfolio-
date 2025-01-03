@@ -1,18 +1,18 @@
 export function About() {
   return (
     <section className="flex flex-col scroll-mt-[80px]" id="about">
-      <h1 className="text-5xl font-bold w-96 mx-auto flex items-center justify-center m-[20px]">
+      <h1 className="md:text-5xl font-bold md:w-96 mx-auto flex items-center justify-center md:m-[20px]">
         About
       </h1>
-      <div className="mx-8 flex w-[90vw] mx-auto">
-        <div className="flex-col w-[50%] justify-center items-center">
+      <div className="md:mx-8 flex md:w-[90vw] mx-auto">
+        <div className="flex-col md:w-[50%] justify-center items-center">
           <div className="flex justify-center items-center">
             <img
               src="/img/austin.png"
-              className="h-[400px] w-[400px] m-[40px] object-cover rounded-[10px]"
+              className="h-[200px] w-[200px] md:h-[400px] md:w-[400px] md:m-[40px] object-cover rounded-[10px]"
             />
           </div>
-          <p className="w-100 text-2xl m-[40px]">
+          <p className="md:w-100 md:text-2xl md:m-[40px]">
             I’m a full stack developer with a deep passion for JavaScript,
             React, Sql and all things web development.The unique combination of
             creativity, logic, technology and never running out of new things to
