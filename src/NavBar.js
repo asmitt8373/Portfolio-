@@ -3,7 +3,7 @@ export function NavBar() {
   return (
     <div
       id="nav-bar"
-      className="fancy-border sticky top-0 z-50 w-4/5 md:w-1/2 h-20 rounded-full bg-sunset text-white mx-auto m-[30px] flex items-center justify-center"
+      className="fancy-border sticky top-0 z-50 w-4/5 md:w-1/2 h-20 rounded-full bg-sunset text-white mx-auto m-[10px] md:m-[30px] flex items-center justify-center"
     >
       <div class="dropdown dropdown-hover">
         <div tabindex="0" role="button" class="btn m-1">
