@@ -1,4 +1,5 @@
 export function NavBar() {
+  console.log("test");
   return (
     <div
       id="nav-bar"
