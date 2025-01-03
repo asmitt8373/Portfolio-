@@ -31,7 +31,7 @@ export function About() {
                 />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center grow md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center grow md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                   HTML
                 </h1>
               </div>
@@ -44,7 +44,7 @@ export function About() {
                 />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center grow md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center grow md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                   CSS
                 </h1>
               </div>
@@ -57,7 +57,7 @@ export function About() {
                 />
               </div>
               <div>
-                <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+                <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                   Tailwind
                 </h1>
               </div>
@@ -71,7 +71,7 @@ export function About() {
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                 React
               </h1>
             </div>
@@ -82,7 +82,7 @@ export function About() {
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                 JavaScript
               </h1>
             </div>
@@ -93,7 +93,7 @@ export function About() {
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                 Git
               </h1>
             </div>
@@ -104,7 +104,7 @@ export function About() {
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                 MongoDB
               </h1>
             </div>
@@ -117,7 +117,7 @@ export function About() {
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                 Python
               </h1>
             </div>
@@ -128,7 +128,7 @@ export function About() {
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
                 />
               </div>
-              <h1 className="flex flex-col justify-center items-center md:text-l text-s font-bold md:mb-[5px] md:mx-[20px]">
+              <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
                 Sql
               </h1>
             </div>
