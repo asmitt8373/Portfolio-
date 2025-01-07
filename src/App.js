@@ -7,7 +7,7 @@ import { Projects } from "./project";
 
 function App() {
   return (
-    <main className="max-w-[100vw] w-[100%] p-4 border-solid border-red border-2">
+    <main className="max-w-[100vw] w-[100%] p-4">
       <NavBar />
       <Home />
       <About />
