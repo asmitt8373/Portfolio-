@@ -21,7 +21,7 @@ export function About() {
             skateboarding and of course traveling to new places.
           </p>
         </div>
-        <div className="flex md:w-[50%]">
+        <div className="flex md:w-[50%] ml-[10px] md:ml-[0px]">
           <div className="flex flex-col justify-center items-center grow ml-[10px] md:ml-[0px]">
             <div className="mb-[10px] md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
