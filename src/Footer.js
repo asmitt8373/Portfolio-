@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <div className="flex flex-rows  justify-center items-center mt-[70px] mb-[100px]">
+    <div className="flex flex-rows  justify-center items-center mt-[125px] mb-[100px]">
       <div className="mr-[40px]">
         <a href="https://github.com/asmitt8373">
           <img src="/img/github.png" className="h-[75px] w-[75px]" />
