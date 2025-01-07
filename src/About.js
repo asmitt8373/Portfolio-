@@ -1,7 +1,7 @@
 export function About() {
   return (
     <section className="flex flex-col scroll-mt-[100px] mb-[100px]" id="about">
-      <h1 className="md:text-5xl font-bold md:w-96 mx-auto flex items-center justify-center md:m-[20px] mt-[25px] mb-[50px]">
+      <h1 className="md:text-5xl font-bold md:w-96 mx-auto flex items-center justify-center md:m-[20px] md:ml-[135px] mt-[25px] mb-[50px]">
         About
       </h1>
       <div className="md:mx-8 flex md:w-[90vw] mx-auto">
@@ -9,7 +9,7 @@ export function About() {
           <div className="flex justify-center items-center">
             <img
               src="/img/austin.png"
-              className="h-[300px] w-[200px] md:h-[400px] md:w-[400px] md:m-[40px] object-cover rounded-[10px]"
+              className="h-[300px] w-[200px] md:h-[400px] md:w-[400px] md:mr-[150px] md:m-[40px] object-cover rounded-[10px]"
             />
           </div>
           <p className="md:w-100 text-xs md:text-2xl md:m-[40px] mt-[25px]">
@@ -23,7 +23,7 @@ export function About() {
         </div>
         <div className="flex md:w-[50%]">
           <div className="flex flex-col justify-center items-center grow">
-            <div className="md:m-[20px] fancy-border rounded-[10px]">
+            <div className="mb-[10px] md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/html.png"
@@ -36,7 +36,7 @@ export function About() {
                 </h1>
               </div>
             </div>
-            <div className="md:m-[20px] fancy-border rounded-[10px]">
+            <div className="mb-[10px] md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/css1.png"
@@ -63,8 +63,8 @@ export function About() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-center items-center grow">
-            <div className="md:m-[20px] fancy-border rounded-[10px]">
+          <div className="flex flex-col justify-center items-center grow ml-[5px] mr-[5px]">
+            <div className="mb-[10px] md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/react.png"
@@ -75,7 +75,7 @@ export function About() {
                 React
               </h1>
             </div>
-            <div className="md:m-[20px] fancy-border rounded-[10px]">
+            <div className="mb-[10px] md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/javascript.png"
@@ -86,7 +86,7 @@ export function About() {
                 JavaScript
               </h1>
             </div>
-            <div className="md:m-[20px] fancy-border rounded-[10px]">
+            <div className="mb-[10px] md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/git.png"
@@ -101,7 +101,7 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/mongo.png"
-                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[100px]"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
@@ -110,7 +110,7 @@ export function About() {
             </div>
           </div>
           <div className="flex flex-col justify-center items-center grow">
-            <div className="md:m-[20px] fancy-border rounded-[10px]">
+            <div className="mb-[10px] md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex flex-col md:m-[10px]">
                 <img
                   src="/img/python.png"
@@ -121,7 +121,7 @@ export function About() {
                 Python
               </h1>
             </div>
-            <div className="md:m-[20px] fancy-border rounded-[10px]">
+            <div className="mb-[10px] md:m-[20px] fancy-border rounded-[10px]">
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/sql.png"

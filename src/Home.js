@@ -1,7 +1,10 @@
 export function Home() {
   return (
-    <div id="home" className="hero min-h-48 h-[100vh] scroll-mt-[80px]">
-      <div className="flex flex-col justify-center items-center hero-content text-center md:w-[100%]">
+    <div
+      id="home"
+      className="hero min-h-48 h-[100vh] scroll-mt-[80px] max-w-[100%]"
+    >
+      <div className="flex flex-col justify-center items-center hero-content mb-[300px] text-center max-w-[100%] md:w-[100%]">
         <h1 className="flex justify-center items-center text-3xl md:text-6xl font-bold md:m-[15px] md:max-w-[900px]">
           Hello, I'm Austin.
         </h1>
