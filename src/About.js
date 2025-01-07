@@ -1,6 +1,6 @@
 export function About() {
   return (
-    <section className="flex flex-col scroll-mt-[80px]" id="about">
+    <section className="flex flex-col scroll-mt-[100px] mb-[550px]" id="about">
       <h1 className="md:text-5xl font-bold md:w-96 mx-auto flex items-center justify-center md:m-[20px]">
         About
       </h1>
