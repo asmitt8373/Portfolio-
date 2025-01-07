@@ -12,7 +12,7 @@ export function About() {
               className="h-[200px] w-[200px] md:h-[400px] md:w-[400px] md:m-[40px] object-cover rounded-[10px]"
             />
           </div>
-          <p className="md:w-100 text-m md:text-2xl md:m-[40px]">
+          <p className="md:w-100 text-xs md:text-2xl md:m-[40px]">
             I’m a full stack developer with a deep passion for JavaScript,
             React, Sql and all things web development.The unique combination of
             creativity, logic, technology and never running out of new things to
@@ -68,7 +68,7 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/react.png"
-                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[100px]"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
@@ -90,7 +90,7 @@ export function About() {
               <div className="flex justify-center md:m-[10px]">
                 <img
                   src="/img/git.png"
-                  className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  className="md:h-[100px] md:w-[100px] h-[50px] w-[100px]"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">

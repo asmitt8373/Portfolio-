@@ -10,7 +10,7 @@ export function Projects() {
           <a href="https://austinsmittlephotography.com/">
             <img
               src="/img/projects.png"
-              className="w-[800px] h-[600px] mb-[100px] object-cover"
+              className="w-[300px] h-[300px] md:w-[800px] md:h-[600px] mb-[100px] object-cover"
             ></img>
           </a>
         </div>
