@@ -12,7 +12,7 @@ export function About() {
               className="h-[300px] w-[200px] md:h-[400px] md:w-[400px] md:m-[40px] object-cover rounded-[10px]"
             />
           </div>
-          <p className="md:w-100 text-[6px] md:text-2xl md:m-[40px] mt-[25px]">
+          <p className="md:w-100 text-xs md:text-2xl md:m-[40px] mt-[25px]">
             I’m a full stack developer with a deep passion for JavaScript,
             React, Sql and all things web development.The unique combination of
             creativity, logic, technology and never running out of new things to
