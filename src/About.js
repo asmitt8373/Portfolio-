@@ -1,7 +1,7 @@
 export function About() {
   return (
     <section className="flex flex-col scroll-mt-[100px] mb-[100px]" id="about">
-      <h1 className="md:text-5xl font-bold md:w-96 mx-auto flex items-center justify-center md:m-[20px] md:ml-[135px] mt-[25px] mb-[50px]">
+      <h1 className="md:text-5xl font-bold md:w-96 mx-auto flex items-center justify-center md:m-[20px] md:ml-[135px] mt-[25px] mb-[25px]">
         About
       </h1>
       <div className="md:mx-8 flex md:w-[90vw] mx-auto">
