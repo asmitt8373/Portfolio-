@@ -2,7 +2,7 @@ export function Projects() {
   return (
     <section className="scroll-mt-[80px]" id="projects">
       <div>
-        <h1 className="text-5xl font-bold w-96 mx-auto flex items-center justify-center mt-[100px] mb-[70px]">
+        <h1 className="text-5xl font-bold w-96 mx-auto flex items-center justify-center md:mt-[125px] md:mb-[70px]">
           Projects
         </h1>
 
