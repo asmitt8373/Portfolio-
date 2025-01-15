@@ -9,6 +9,7 @@ export function About() {
           <div className="flex justify-center items-center">
             <img
               src="/img/austin.png"
+              alt="me"
               className="h-[300px] w-[200px] md:h-[400px] md:w-[400px] md:mr-[150px] md:m-[40px] object-cover rounded-[10px]"
             />
           </div>
@@ -28,6 +29,7 @@ export function About() {
                 <img
                   src="/img/html.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  alt="html"
                 />
               </div>
               <div>
@@ -41,6 +43,7 @@ export function About() {
                 <img
                   src="/img/css1.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  alt="css"
                 />
               </div>
               <div>
@@ -54,6 +57,7 @@ export function About() {
                 <img
                   src="/img/tailwind.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  alt="tailwind"
                 />
               </div>
               <div>
@@ -69,6 +73,7 @@ export function About() {
                 <img
                   src="/img/react.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[100px]"
+                  alt="react"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
@@ -80,6 +85,7 @@ export function About() {
                 <img
                   src="/img/javascript.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  alt="javascript"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
@@ -91,6 +97,7 @@ export function About() {
                 <img
                   src="/img/git.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[100px]"
+                  alt="git"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
@@ -102,6 +109,7 @@ export function About() {
                 <img
                   src="/img/mongo.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[100px]"
+                  alt="mongo"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
@@ -115,6 +123,7 @@ export function About() {
                 <img
                   src="/img/python.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  alt="python"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
@@ -126,6 +135,7 @@ export function About() {
                 <img
                   src="/img/sql.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  alt="sql"
                 />
               </div>
               <h1 className="flex flex-col justify-center items-center md:text-l text-xs font-bold md:mb-[5px] md:mx-[20px]">
@@ -137,6 +147,7 @@ export function About() {
                 <img
                   src="/img/node.png"
                   className="md:h-[100px] md:w-[100px] h-[50px] w-[50px]"
+                  alt="node"
                 />
               </div>
               <div>

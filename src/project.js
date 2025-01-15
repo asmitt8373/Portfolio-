@@ -10,6 +10,7 @@ export function Projects() {
           <a href="https://austinsmittlephotography.com/">
             <img
               src="/img/projects.png"
+              alt="photoBlog"
               className="w-[300px] h-[300px] md:w-[800px] md:h-[600px] mt-[25px] md:mt-[0px] mb-[100px] object-cover"
             ></img>
           </a>
